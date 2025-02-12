@@ -283,18 +283,31 @@ header a:hover {
     #proyectos .proyectos {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap; /* Asegura que las cartas se ajusten en varias filas si es necesario */
+        gap: 20px; /* Espaciado entre las cartas */
     }
 
     #proyectos p {
         display: block;
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
 
     #proyectos .carta {
         padding: 190px 50px;
+       
+        width: 2500px; /* O ajusta al tamaño que necesites */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  /*Distribuye el contenido verticalmente */
+        border: 1px solid #ccc;
+        box-sizing: border-box;
     }
+
 
     #proyectos h3 {
         margin-top: 0;
     }
+
+
 }
