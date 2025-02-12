@@ -23,7 +23,7 @@ button {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
-    border: 1px solid rgba (0, 0,0,0,0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: black;
     background-color: wheat;
@@ -99,16 +99,21 @@ header a:hover {
 }
 
 
-#tecnologias .container {
-    text-align: center;
-    padding: 200px 12px;
-}
-
 #tecnologias {
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
-    padding: 100px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Hace que la sección ocupe al menos el alto de la pantalla */
+    padding: 50px 12px; /* Reducimos el padding */
+}
+
+#tecnologias .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 12px; /* Reducimos el padding superior e inferior */
 }
 
 .tecnologias-wrapper {
@@ -147,6 +152,7 @@ header a:hover {
         width: 45%;
     }
 }
+
 
 #proyectos {
     background-color: rgb(98, 65, 18);
@@ -198,6 +204,15 @@ header a:hover {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     ), url("imagenes/PostgreSQL.png");
+}
+@media (max-width: 600px) {
+    #contactame input,
+    #contactame textarea {
+        font-size: 0.9em;
+    }
+    #contactame button {
+        font-size: 1.1em;
+    }
 }
 
 #contactame {
@@ -257,6 +272,7 @@ header a:hover {
     header .container{
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     header nav {
         flex-direction: row;
