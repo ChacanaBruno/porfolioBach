@@ -121,6 +121,8 @@ header a:hover {
     max-width: 1200px; /* Limita el tamaño máximo del texto */
     font-size: 1.1rem;
     line-height: 1.6; /* Espaciado de líneas para mejor lectura */
+    text-align: justify; /* Justifica el texto */
+    
   }
   
   @media (max-width: 768px) {
