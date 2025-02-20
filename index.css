@@ -19,7 +19,7 @@ p{ font-size: 1.25em;}
 ul { list-style: none;}
 
 button {
-    margin-top: 20px;
+    margin-top: 80px;  /* Aumenta el margen para separarlo del header */
     align-self: center;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -34,8 +34,8 @@ button {
 }
 
 button:hover {
-    background-color: blueviolet;
-    /*transform: scale(1.1); /* Ahora sí se agrandará al pasar el mouse */
+    background-color: cadetblue;
+   /* transform: scale(1.1); /* se agranda pero se buguea con el header, la barra de arriba */
 }
 
 .container{
@@ -78,9 +78,8 @@ header a {
 }
 
 header a:hover {
-    color: blueviolet;
+    color:chocolate;
 }
-
 #hero {
     display: flex;
     align-items: center;
@@ -97,7 +96,8 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
+    padding-top: 100px;  /* Añade padding superior para asegurar que el contenido no se pegue al header */
+}
   
   #hero h1 {
     color: white;
