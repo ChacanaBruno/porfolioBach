@@ -224,6 +224,39 @@ header a:hover {
     border-radius: 15px;
 }
 
+.carta1-wrapper {
+    
+    display: flex;
+    flex-direction: row; /* Elementos dispuestos horizontalmente */
+    justify-content: center; /* Alinea los elementos al centro */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 40px;
+    width: 100%;
+    max-width: 1600px; /* Limita el ancho máximo */
+    padding: 0 20px; /* Agrega padding para no pegar los elementos a los bordes */
+  }
+  
+  .carta1-text {
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de opacidad */
+    /*backdrop-filter: blur(3px); /*le da desenfoque*/
+    padding: 40px; /* Mayor espacio interno para que se vea más grande */
+    border-radius: 10px;
+    width: 100%; /* Hace que ocupe un 80% del espacio disponible */
+    max-width: 1200px; /* Limita el tamaño máximo del texto */
+    font-size: 1.1rem;
+    line-height: 1.6; /* Espaciado de líneas para mejor lectura */
+    text-align: justify; /* Justifica el texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos en la columna */
+    
+  }
+
+  .carta1-text h3 {
+    text-align: center; /* Centra el título */
+    margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
+}
+
 .carta:first-child {
     background-image: linear-gradient(
         0deg,
