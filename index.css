@@ -409,20 +409,26 @@ form input, form textarea {
         margin-top: 0;
     }
 
-    #proyectos button {
-        margin-top: 20px;
-        align-self: center;
-        padding: 15px 30px;
-        font-size: 1.2rem;
-        max-width: 200px; /* Evita que el botón se vuelva demasiado grande */
-        border: none;
-        border-radius: 8px;
-        background-color: #333;
-        color: white;
-        cursor: pointer;
-        transition: 0.3s;
-        font-weight: bold;
-    }
+#proyectos button {
+    margin-top: 100px;
+    align-self: center;
+    padding: 20px 40px; /* Aumentamos el padding para hacerlo más grande */
+    font-size: 1.5rem; /* Aumentamos el tamaño de la fuente */
+    max-width: 300px; /* Aumentamos el max-width para permitir un mayor tamaño */
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#proyectos button:hover {
+    background-color: #f5deb3;
+}
+
+    
     
     #proyectos button:hover {
         background-color: #555;
