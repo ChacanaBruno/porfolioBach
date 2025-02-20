@@ -224,7 +224,7 @@ header a:hover {
     border-radius: 15px;
 }
 
-.carta1-wrapper {
+.carta-wrapper {
     
     display: flex;
     flex-direction: row; /* Elementos dispuestos horizontalmente */
@@ -236,7 +236,7 @@ header a:hover {
     padding: 0 20px; /* Agrega padding para no pegar los elementos a los bordes */
   }
   
-  .carta1-text {
+  .carta-text {
     background: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de opacidad */
     /*backdrop-filter: blur(3px); /*le da desenfoque*/
     padding: 40px; /* Mayor espacio interno para que se vea más grande */
@@ -252,7 +252,7 @@ header a:hover {
     
   }
 
-  .carta1-text h3 {
+  .carta-text h3 {
     text-align: center; /* Centra el título */
     margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
 }
