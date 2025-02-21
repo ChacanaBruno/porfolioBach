@@ -172,11 +172,11 @@ header a:hover {
 }
 
 .backend, .frontend {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    width: 90%;
-    max-width: 500px;
+    background: rgba(255, 255, 255, 0.3); /* Fondo aún más claro */
+    padding: 40px; /* Más espacio interno */
+    border-radius: 12px; /* Bordes un poco más redondeados */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 800px; /* Aumentamos el tamaño máximo */
 }
 
 .tech-item {
@@ -185,11 +185,11 @@ header a:hover {
     gap: 10px;
     padding: 10px 0;
 }
-
 .tech-item img {
-    width: 80px;
-    height: 80px;
+    width: 110px; /* Aumentamos el ancho */
+    height: 110px; /* Aumentamos la altura */
 }
+
 
 @media (min-width: 768px) {
     .tecnologias-wrapper {
