@@ -21,11 +21,11 @@ ul { list-style: none;}
 button {
     margin-top: 80px;  /* Aumenta el margen para separarlo del header */
     align-self: center;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    max-width: 200px; /* Evita que el botón se vuelva demasiado grande */
+    padding: 20px 50px; /* Aumenta el padding para hacerlo más grande */
+    font-size: 1.5rem;  /* Aumenta el tamaño del texto */
+   /* max-width: 200px; /* Evita que el botón se vuelva demasiado grande */
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: wheat;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -332,9 +332,11 @@ header a:hover {
 }
 
 #contactame textarea {
-    height: 120px;
-    resize: none;
+    height: 250px; /* Aumenta la altura del textarea */
+    margin-bottom: 5px; /* Reduce el espacio debajo del textarea */
+    resize: none; /* Evita que el usuario pueda cambiar el tamaño */
 }
+
 
 #contactame button {
     width: 100%; /* Asegura que el botón también ocupe todo el ancho */
@@ -344,6 +346,7 @@ header a:hover {
     cursor: pointer;
     border-radius: 8px;
     font-weight: bold;
+    margin-top: 5px; /* Reduce el espacio encima del botón */
   }
 
 #contactame button:hover {
@@ -424,15 +427,13 @@ form input, form textarea {
     font-weight: bold;
 }
 
-#proyectos button:hover {
-    background-color: #f5deb3;
-}
-
-    
-    
     #proyectos button:hover {
         background-color: #555;
         /*transform: scale(1.05);*/
     }
-    
+ 
+    /*
+#proyectos button:hover {
+    background-color: #f5deb3;
+}*/
 }
