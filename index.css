@@ -256,7 +256,11 @@ header a:hover {
     align-items: center; /* Centra los elementos en la columna */
     
   }
-
+  @media (max-width: 768px) {
+    .carta-wrapper {
+        flex-direction: column; /* En pantallas pequeñas, apilar las cartas verticalmente */
+    }
+}
   .carta-text h3 {
     text-align: center; /* Centra el título */
     margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
@@ -267,12 +271,15 @@ header a:hover {
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url("imagenes/crud.png");
+    ), url("imagenes/crud.jpg");
     background-position: center;  /* Centra la imagen */
     background-size: contain;     /* Ajusta la imagen sin recortar */
     background-repeat: no-repeat; /* Evita que se repita */
 }
 
+.carta:first-child .tech-item img {
+    margin-left: -20px; /* Ajusta el valor según lo necesario */
+}
 
 
 .carta:nth-child(2) {
@@ -288,8 +295,14 @@ header a:hover {
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url("imagenes/PostgreSQL.png");
+    ), url("imagenes/logica.jpg");
+    background-position: center; /* Centra la imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la carta sin distorsionarse */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */ 
 }
+
+
+
 @media (max-width: 600px) {
     #contactame input,
     #contactame textarea {
