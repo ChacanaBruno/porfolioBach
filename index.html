@@ -42,12 +42,12 @@
           </div>
         </div>
         <a
-        href="https://www.linkedin.com/in/brunochacana/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button>LinkedIn</button>
-      </a>
+          href="https://www.linkedin.com/in/brunochacana/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>LinkedIn</button>
+        </a>
       </div>
     </section>
 
@@ -87,6 +87,8 @@
           </div>
         </div>
       </div>
+          <!-- Enlazar el archivo JavaScript externo 
+         /* <script src="tecFlotantes.js"></script> -->
     </section>
 
     <section id="proyectos">
@@ -110,8 +112,8 @@
               <div class="carta-text">
                 <h3>Portafolio</h3>
                 <p>
-                  Mi sitio web personal donde presento mis proyectos, conocimientos
-                  y experiencia en desarrollo de software.
+                  Mi sitio web personal donde presento mis proyectos,
+                  conocimientos y experiencia en desarrollo de software.
                 </p>
               </div>
             </div>
@@ -139,15 +141,38 @@
         <h2>Contáctame</h2>
         <h3>¡Puedes enviarme un mensaje si quieres!</h3>
 
-        <form id="form" class="form" action="https://formspree.io/f/xrbejvkk" method="POST">
-          <input name="name" required type="text" id="name" placeholder="Tu nombre completo" />
-          <input name="email" type="email" id="email" required placeholder="Tu correo" />
-          <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+        <form
+          id="form"
+          class="form"
+          action="https://formspree.io/f/xrbejvkk"
+          method="POST"
+        >
+          <input
+            name="name"
+            required
+            type="text"
+            id="name"
+            placeholder="Tu nombre completo"
+          />
+          <input
+            name="email"
+            type="email"
+            id="email"
+            required
+            placeholder="Tu correo"
+          />
+          <textarea
+            id="message"
+            name="message"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
           <button type="submit" class="btn primary full">Enviar</button>
         </form>
       </div>
     </section>
-    
+
     <!-- este scrip permite evitar la pantalla del proovedor, pero se rompe con el CAPTCHA
     <script> 
       const $form = document.querySelector('#form')
@@ -174,5 +199,13 @@
       }
     </script>
     -->
+
+    <!-- Botón de flecha hacia arriba -->
+    <button id="scrollUpBtn" class="scroll-up-btn">
+      ↑
+    </button>
+    
+
+<script src="buttonUpPage.js"></script>
   </body>
 </html>

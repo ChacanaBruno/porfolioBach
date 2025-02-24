@@ -190,6 +190,17 @@ header a:hover {
     height: 110px; /* Aumentamos la altura */
 }
 
+/*efecto de flotar
+.tech-item img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-item img:hover {
+    transform: translateY(-10px); /* Efecto de flotación 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra para más realismo 
+}
+*/
+
 
 @media (min-width: 768px) {
     .tecnologias-wrapper {
@@ -449,6 +460,28 @@ form input, form textarea {
 #proyectos button:hover {
     background-color: #f5deb3;
 }*/
+/* Estilo para el botón de flecha hacia arriba */
+.scroll-up-btn {
+    position: fixed;
+    bottom: 30px; /* Ajusta la distancia desde el fondo */
+    right: 80px;  /* Ajusta la distancia desde la derecha (ahora más hacia la izquierda) */
+    background-color: wheat; /* Color de fondo */
+    color: rgb(0, 0, 0); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Hacerlo redondo */
+    padding: 20px 25px; /* Aumenta el tamaño del botón */
+    font-size: 30px; /* Aumenta el tamaño de la flecha */
+    cursor: pointer;
+    display: none; /* Inicialmente oculto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.scroll-up-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Agrandar ligeramente el botón */
+}
 
 
 }
